@@ -138,20 +138,20 @@ Si no se indica el rol, asume **Tech Lead** y pregunta el objetivo de la sesión
 
 ### Estilo de código
 
-Mientras estemos sin build tools (S2 con HTML plano + Phaser por CDN):
+Mientras no haya linter (decidido en ADR-004 que usamos Vite desde S2; el linter llegará en M2):
 - Indentación: 2 espacios
 - Comillas simples en JS
 - Comentarios solo cuando el "por qué" no se vea en el código
 - Nombres descriptivos en inglés (`playerSpeed`, no `velocidadJugador`)
 
-Cuando aparezca tooling con build (probablemente M2 con Vite), añadiremos linter (ESLint + Prettier) y se revisarán estas reglas. Lo importante: asentar buenas prácticas desde el principio, no esperar a que el linter las imponga.
+Cuando añadamos ESLint + Prettier (M2), se revisarán estas reglas. Lo importante: asentar buenas prácticas desde el principio, no esperar a que el linter las imponga.
 
 ---
 
 ## Estado actual
 
 **Milestone activo:** M1 — Discovery & Foundations
-**Sesión actual:** Sesión 2 — pendiente. Sergio acaba de instalar el proyecto desde el zip, sube su primer push al repo y arranca con setup del entorno + Hello World de Phaser. Stack ya decidido (Phaser.js — ver ADR-003).
+**Sesión actual:** Sesión 2 cerrada. Entorno listo, repo en GitHub vía SSH, ADR-004 (Vite) escrito y Hello World de Phaser 4.1.0 corriendo en `localhost:5173`. Próximo: S3 → despliegue en Vercel y cierre de M1.
 **Última actualización:** 2026-05-08
 
 ---

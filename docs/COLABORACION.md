@@ -25,7 +25,7 @@ Es exactamente cómo trabajan los equipos de software reales.
 1. Prepara un zip con el contenido actual del proyecto y se lo envía a Sergio.
 2. Cuando Sergio suba el repo, Abel lo clona en su equipo:
    ```
-   git clone https://github.com/sergio/space-punk.git
+   git clone https://github.com/Sergiete07-1/space-punk.git
    ```
 
 ### Lo que hace Sergio (primera sesión)
@@ -38,7 +38,7 @@ Es exactamente cómo trabajan los equipos de software reales.
 
 ```
 git init
-git remote add origin https://github.com/TU_USUARIO/space-punk.git
+git remote add origin https://github.com/Sergiete07-1/space-punk.git
 git add .
 git commit -m "chore: proyecto inicial"
 git push -u origin main

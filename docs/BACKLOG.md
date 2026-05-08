@@ -10,24 +10,11 @@
 
 ## 🟡 In Progress
 
-- [ ] **T-006-PREP** [infra] *(Abel)* Preparar zip del proyecto y enviárselo a Sergio para que lo instale
+_(Vacío.)_
 
 ---
 
 ## 🔵 To Do — Sprint actual (M1)
-
-### S2 — Sesión 2: Setup del entorno y primer Hello World
-
-> Objetivo: Sergio tiene su máquina lista, el repo subido a GitHub, y un Hello World de Phaser corriendo en local.
-
-- [ ] **T-004** [infra] Crear cuenta de GitHub (si no la tiene) y configurar SSH/token
-- [ ] **T-005** [infra] Instalar VSCode, Node.js LTS, Git en el equipo del estudiante
-- [ ] **T-006** [tech] Crear repo vacío en GitHub, descomprimir el zip dentro y hacer primer push (ver `docs/COLABORACION.md`)
-- [ ] **T-008** [docs] Sustituir las URLs placeholder de `docs/COLABORACION.md` por la URL real del repo (hay 2 ocurrencias: la del `git clone` que usa Abel y la del `git remote add origin` que usa Sergio)
-- [ ] **T-012a** [tech] Decidir tooling de Phaser: HTML plano + `<script>` vs bundler (Vite). Documentar en `DECISIONS.md` (ADR-004)
-- [ ] **T-012** [tech] "Hello World" de Phaser corriendo en local (una escena con texto o un sprite)
-- [ ] **T-016** [docs] Escribir entrada de S1 en `LEARNINGS.md` (retrospectiva — quedó pendiente)
-- [ ] **T-017** [docs] Escribir entrada de S2 en `LEARNINGS.md` al cerrar la sesión
 
 ### S3 — Sesión 3: Despliegue y cierre de M1
 
@@ -79,6 +66,18 @@ _(Vacío.)_
 ## 🟢 Done
 
 _(Las más recientes arriba.)_
+
+### S2 — Sesión 2: Setup del entorno y primer Hello World (2026-05-08)
+
+- [x] **T-006-PREP** [infra] *(Abel)* Preparar zip del proyecto y enviárselo a Sergio
+- [x] **T-005** [infra] Instalar VSCode, Node.js LTS, Git → ya estaban instalados (verificado)
+- [x] **T-004** [infra] Cuenta GitHub + SSH configurado (claves Ed25519, agente automático)
+- [x] **T-006** [tech] Repo `space-punk` creado en GitHub y primer push (vía SSH)
+- [x] **T-008** [docs] URLs reales en `docs/COLABORACION.md`
+- [x] **T-012a** [tech] Tooling de Phaser decidido → ADR-004 (Vite)
+- [x] **T-012** [tech] Hello World de Phaser 4.1.0 corriendo en `localhost:5173`
+- [x] **T-016** [docs] Entrada de S1 en `LEARNINGS.md`
+- [x] **T-017** [docs] Entrada de S2 en `LEARNINGS.md`
 
 ### S1 — Sesión 1: Kickoff (2026-05-06)
 

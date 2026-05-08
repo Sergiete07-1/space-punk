@@ -119,6 +119,40 @@ Esta decisión se tomó fuera del flujo formal (sin sesión guiada, sin tabla co
 
 ---
 
+## ADR-004 — Tooling de Phaser: Vite
+
+**Fecha:** 2026-05-08
+**Estado:** Accepted
+
+### Contexto
+
+Decidido el stack (ADR-003: Phaser.js), quedaba elegir cómo servimos Phaser y nuestro código al navegador. Dos caminos viables:
+
+- **HTML plano + `<script>` desde CDN.** Cero setup, cero dependencias, ideal para entender los fundamentos del navegador. Funciona abriendo el archivo (con un mini-servidor local).
+- **Vite (bundler).** Servidor de desarrollo con hot reload, módulos ES (`import`/`export`), build optimizado para producción. Estándar profesional actual.
+
+El `CLAUDE.md` ya anticipaba una posible migración a Vite en M2. La pregunta era si arrancar con HTML plano y migrar más adelante, o empezar con Vite directamente.
+
+### Decisión
+
+Usamos **Vite** desde el primer "Hello World".
+
+Razones:
+- Evita una migración futura (deuda técnica eliminada antes de existir).
+- El hot reload acelera el ciclo de feedback durante el desarrollo.
+- Es el tooling estándar en proyectos web reales — alinea el aprendizaje con lo que Sergio se encontrará en cualquier empresa.
+- El despliegue en Vercel (T-013) detecta Vite automáticamente, simplificando S3.
+- Más superficie de aprendizaje para Sergio: tocar `package.json`, `node_modules`, scripts npm y módulos ES desde el día uno entra de pleno en el objetivo educativo del proyecto.
+
+### Consecuencias
+
+- Hay que entender desde el principio: `package.json`, `node_modules`, scripts npm, módulos ES, configuración mínima de Vite. Curva inicial real pero pequeña.
+- A partir de aquí el comando para levantar el juego en local será `npm run dev`, no abrir el `index.html` con doble clic.
+- Linter (ESLint + Prettier) entra en juego en M2 cuando ya tengamos código sustancial — el `CLAUDE.md` ya lo anticipa.
+- Se introduce dependencia con el ecosistema npm: `node_modules/` puede romperse, las versiones de paquetes pueden cambiar. Riesgo asumido a cambio del beneficio.
+
+---
+
 ## Decisiones pendientes
 
 - Servicio de despliegue (M1, S2)
