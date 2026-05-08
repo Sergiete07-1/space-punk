@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:/Dev/Practicas Sergio/tutor-private\")",
+      "Bash(mv \"C:/Dev/Practicas Sergio/Prácticas Desarrollo Apps Web/docs/SESSION-1-A-KICKOFF.md\" \"C:/Dev/Practicas Sergio/tutor-private/\")",
+      "Bash(mv \"C:/Dev/Practicas Sergio/Prácticas Desarrollo Apps Web/docs/SESSION-1-B-STACK.md\" \"C:/Dev/Practicas Sergio/tutor-private/\")",
+      "Read(//c/Dev/Practicas Sergio/**)"
+    ]
+  }
+}
