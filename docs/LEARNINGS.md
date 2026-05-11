@@ -69,6 +69,35 @@
 
 <!-- A partir de aquí, las entradas reales. Más recientes arriba. -->
 
+## Sesión 3 — 2026-05-11 — Despliegue en Vercel y cierre de M1
+
+**Lo que hicimos:**
+- T-013 ✓ Vercel conectado al repo de GitHub con auto-deploy configurado
+- T-014 ✓ Hello World desplegado en space-punk.vercel.app
+- T-015 ✓ Backlog de M2 poblado con tareas T-020 a T-029
+- T-011 (parcial) Escenas de Phaser definidas y documentadas en `docs/ARCHITECTURE.md`
+- ADR-005 escrito: elección de Vercel como plataforma de despliegue
+
+**Lo aprendido (en palabras de Sergio):**
+- "Aprendí a usar Vercel — lo conectas con el repositorio y te crea una URL en la que lo muestra"
+- "Que es gratis y no parece estar muy limitado"
+- "Cada vez que guardas los cambios en GitHub se te actualiza solo"
+
+**Lo más difícil / lo que más gustó:**
+> "No hubo nada difícil. Lo que más me gustó es que se actualizara solo"
+
+**Frase de resumen:**
+> "He conectado GitHub con Vercel para que se suban los cambios solos"
+
+**Mini-retro:**
+- Cambiamos: —
+- Mantenemos: el ritmo de la sesión
+
+**Bloqueos / lo que quedó raro:**
+—
+
+---
+
 ## Sesión 2 — 2026-05-08 — Setup del entorno y primer Hello World de Phaser
 
 **Lo que hicimos:**

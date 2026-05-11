@@ -150,9 +150,9 @@ Cuando añadamos ESLint + Prettier (M2), se revisarán estas reglas. Lo importan
 
 ## Estado actual
 
-**Milestone activo:** M1 — Discovery & Foundations
-**Sesión actual:** Sesión 2 cerrada. Entorno listo, repo en GitHub vía SSH, ADR-004 (Vite) escrito y Hello World de Phaser 4.1.0 corriendo en `localhost:5173`. Próximo: S3 → despliegue en Vercel y cierre de M1.
-**Última actualización:** 2026-05-08
+**Milestone activo:** M2 — Playable Core
+**Sesión actual:** Sesión 4 — pendiente. Empezamos a programar: arquitectura de GameScene y mapa básico (T-011, T-020, T-021).
+**Última actualización:** 2026-05-11
 
 ---
 

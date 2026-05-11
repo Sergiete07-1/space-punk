@@ -14,16 +14,15 @@ _(Vacío.)_
 
 ---
 
-## 🔵 To Do — Sprint actual (M1)
+## 🔵 To Do — Sprint actual (M2)
 
-### S3 — Sesión 3: Despliegue y cierre de M1
+### S4 — Sesión 4: Inicio de M2 — arquitectura y mapa básico
 
-> Objetivo: el Hello World está desplegado en una URL pública con auto-deploy, y el backlog de M2 está poblado.
+> Objetivo: empezar a programar el juego. Completar arquitectura de escenas y crear el primer mapa jugable.
 
-- [ ] **T-013** [infra] Configurar despliegue automático en **Vercel** (push a `main` → live)
-- [ ] **T-014** [tech] Push del Hello World → desplegado en URL pública compartible
-- [ ] **T-015** [docs] Poblar backlog de M2 con tareas concretas (mínimo 10)
-- [ ] **T-018** [docs] Escribir entrada de S3 + retro de M1 en `LEARNINGS.md`
+- [ ] **T-011** [tech] Completar arquitectura básica del juego (input, render, estado dentro de GameScene)
+- [ ] **T-020** [tech] Crear mapa básico
+- [ ] **T-021** [tech] Personaje visible en el mapa
 
 ---
 
@@ -39,17 +38,6 @@ _(Se irá llenando conforme avancemos. No tiene sentido planificar M3 al detalle
 - [ ] Estado del juego: qué necesita guardar mientras se juega
 - [ ] Lógica del bucle principal del juego
 - [ ] Pantalla de inicio y de fin de partida
-- [ ] **T-020** [tech] Crear mapa básico
-- [ ] **T-021** [tech] Personaje visible en el mapa
-- [ ] **T-022** [tech] Movimiento con WASD
-- [ ] **T-023** [tech] Orientación con ratón
-- [ ] **T-024** [tech] Colisiones con los bordes del mapa
-- [ ] **T-025** [tech] Enemigo básico visible
-- [ ] **T-026** [tech] Ataque cuerpo a cuerpo
-- [ ] **T-027** [tech] Ataque a distancia (proyectil)
-- [ ] **T-028** [tech] Sistema de vida del jugador y el enemigo
-- [ ] **T-029** [tech] El enemigo o jugador muere al llegar a 0 vida
-
 
 ### Ideas sueltas para M3
 
@@ -77,6 +65,13 @@ _(Vacío.)_
 ## 🟢 Done
 
 _(Las más recientes arriba.)_
+
+### S3 — Sesión 3: Despliegue en Vercel y cierre de M1 (2026-05-11)
+
+- [x] **T-013** [infra] Configurar despliegue automático en Vercel (push a `main` → live)
+- [x] **T-014** [tech] Push del Hello World → desplegado en URL pública (space-punk.vercel.app)
+- [x] **T-015** [docs] Poblar backlog de M2 con tareas concretas (T-020 a T-029)
+- [x] **T-018** [docs] Entrada de S3 + retro de M1 en `LEARNINGS.md`
 
 ### S2 — Sesión 2: Setup del entorno y primer Hello World (2026-05-08)
 

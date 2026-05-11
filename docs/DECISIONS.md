@@ -34,6 +34,25 @@
 
 ---
 
+## ADR-005 — Plataforma de despliegue: Vercel
+
+**Fecha:** 2026-05-11
+**Estado:** Accepted
+
+### Contexto
+
+Al cerrar M1 necesitábamos desplegar el Hello World en una URL pública con auto-deploy. Las opciones eran Vercel, Netlify o Railway.
+
+### Decisión
+
+Usamos **Vercel**. Detecta Vite automáticamente, el plan gratuito no tiene límites relevantes para este proyecto, y la integración con GitHub es directa.
+
+### Consecuencias
+
+Cada push a `main` despliega automáticamente en producción. La URL pública es `space-punk.vercel.app`. Si en el futuro necesitamos backend (M3), habrá que evaluar si Vercel sigue siendo suficiente o migramos a Railway.
+
+---
+
 ## ADR-001 — Concepto del juego: Space Punk
 
 **Fecha:** 2026-05-06
