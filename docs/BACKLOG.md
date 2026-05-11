@@ -39,6 +39,17 @@ _(Se irá llenando conforme avancemos. No tiene sentido planificar M3 al detalle
 - [ ] Estado del juego: qué necesita guardar mientras se juega
 - [ ] Lógica del bucle principal del juego
 - [ ] Pantalla de inicio y de fin de partida
+- [ ] **T-020** [tech] Crear mapa básico
+- [ ] **T-021** [tech] Personaje visible en el mapa
+- [ ] **T-022** [tech] Movimiento con WASD
+- [ ] **T-023** [tech] Orientación con ratón
+- [ ] **T-024** [tech] Colisiones con los bordes del mapa
+- [ ] **T-025** [tech] Enemigo básico visible
+- [ ] **T-026** [tech] Ataque cuerpo a cuerpo
+- [ ] **T-027** [tech] Ataque a distancia (proyectil)
+- [ ] **T-028** [tech] Sistema de vida del jugador y el enemigo
+- [ ] **T-029** [tech] El enemigo o jugador muere al llegar a 0 vida
+
 
 ### Ideas sueltas para M3
 
