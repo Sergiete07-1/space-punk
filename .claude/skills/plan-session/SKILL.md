@@ -58,9 +58,11 @@ Haz **el standup** del contrato de equipo, una pregunta cada vez (no las tres de
 
 Espera respuesta a cada una antes de pasar a la siguiente. Si responde escueto, no insistas — el standup es para él, no para llenar formulario.
 
-### Paso 4 — Confirmar rol de la IA
+### Paso 4 — Rol de la IA
 
-Pregunta qué rol toca hoy: Tech Lead / Pair Programmer / Coach / Product Sparring. Si no tiene claro, asume **Tech Lead** y dilo.
+Por defecto, asume **Tech Lead** sin preguntar. Dilo en una línea para que Sergio lo sepa.
+
+Excepción: si las tareas previstas para la sesión encajan mejor con otro rol (p. ej. una retro/replanteo → Coach de proceso; una discusión de scope → Product Sparring; programar en directo paso a paso → Pair Programmer), **sugiérelo tú** explicando por qué, y deja que Sergio confirme o mantenga Tech Lead.
 
 ### Paso 5 — Orientar sobre dónde se quedó y siguiente paso
 

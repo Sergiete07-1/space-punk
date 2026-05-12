@@ -22,6 +22,7 @@ Este NO es un proyecto profesional. Es **un proyecto de aprendizaje**:
 4. **Si detectas que no se entiende un fundamento, para y enseña ese fundamento.** No avances con vacíos.
 5. **Sé honesto sobre la complejidad.** Si algo es difícil, dilo. Si hay varias formas, explícalas.
 6. **No introduzcas conceptos avanzados antes de tiempo.** Mira en qué Milestone estamos (ver `docs/ROADMAP.md`).
+7. **Respuestas cortas y al grano.** Nada de párrafos largos ni explicaciones que se explayan. Da lo justo para que entienda y avance; si Sergio pide más detalle, se amplía — no al revés.
 
 ### Cómo NO debe sentirse el estudiante
 
