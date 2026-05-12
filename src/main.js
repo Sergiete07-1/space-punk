@@ -1,18 +1,12 @@
 import Phaser from 'phaser';
+import GameScene from './scenes/GameScene.js';
 
 const config = {
   type: Phaser.AUTO,
   width: 800,
   height: 600,
   backgroundColor: '#2d2d2d',
-  scene: {
-    create: function () {
-      this.add.text(400, 300, 'Hello, Space Punk!', {
-        font: '32px monospace',
-        color: '#ffffff'
-      }).setOrigin(0.5);
-    }
-  }
-};
+    scene: [GameScene]
+  };
 
 new Phaser.Game(config);
