@@ -37,5 +37,11 @@ if (this.keys.S.isDown) {
 if (this.keys.D.isDown) {
   this.player.x += velocidad;
 }
+
+if (this.player.x < 16) this.player.x = 16;
+if (this.player.x > 784) this.player.x = 784;
+if (this.player.y < 16) this.player.y = 16;
+if (this.player.y > 560) this.player.y = 560;
+
 }
 }
