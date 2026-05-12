@@ -1,4 +1,4 @@
-# Learnings & Retros
+﻿# Learnings & Retros
 
 > Bitácora del aprendizaje. Append-only.
 >
@@ -150,6 +150,35 @@
 **Mini-retro:**
 - Cambiamos: —
 - Mantenemos: investigar fuera de sesión cuando hay que tomar una decisión técnica
+
+**Bloqueos / lo que quedó raro:**
+—
+
+---
+
+## Sesión 4 — 2026-05-12 — Primer código del juego: mapa, personaje y movimiento
+
+**Lo que hicimos:**
+- T-011 ✓ Arquitectura de GameScene completada en `docs/ARCHITECTURE.md` (input, render, estado)
+- T-020 ✓ Mapa básico creado con `graphics.fillRect` y bucles anidados
+- T-021 ✓ Personaje visible en el mapa (`this.add.rectangle`)
+- T-022 ✓ Movimiento del personaje con WASD
+- T-023 ✓ Límites de movimiento para que el personaje no salga del mapa
+
+**Lo aprendido (en palabras de Sergio):**
+- "Qué es input, render y estado"
+- "Cada módulo necesita sus propias importaciones para poder utilizar métodos en otras clases"
+- "`this` comparte datos entre métodos de la clase"
+
+**Lo más difícil / lo que más gustó:**
+> "Lo más difícil fue hacer los imports. Lo que más me gustó fue empezar a hacer código"
+
+**Frase de resumen:**
+> "Empecé a crear el código del juego"
+
+**Mini-retro:**
+- Cambiamos: en los juegos top-down lo que debería moverse es el mapa, no el jugador — lo arreglamos en S5 con la cámara
+- Mantenemos: el ritmo de la sesión
 
 **Bloqueos / lo que quedó raro:**
 —

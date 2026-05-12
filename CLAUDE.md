@@ -1,4 +1,4 @@
-# Contexto del proyecto para Claude
+﻿# Contexto del proyecto para Claude
 
 > Este archivo es la fuente de verdad sobre el proyecto. Léelo siempre al inicio de cada sesión.
 
@@ -22,7 +22,6 @@ Este NO es un proyecto profesional. Es **un proyecto de aprendizaje**:
 4. **Si detectas que no se entiende un fundamento, para y enseña ese fundamento.** No avances con vacíos.
 5. **Sé honesto sobre la complejidad.** Si algo es difícil, dilo. Si hay varias formas, explícalas.
 6. **No introduzcas conceptos avanzados antes de tiempo.** Mira en qué Milestone estamos (ver `docs/ROADMAP.md`).
-7. **Respuestas cortas y al grano.** Nada de párrafos largos ni explicaciones que se explayan. Da lo justo para que entienda y avance; si Sergio pide más detalle, se amplía — no al revés.
 
 ### Cómo NO debe sentirse el estudiante
 
@@ -152,8 +151,8 @@ Cuando añadamos ESLint + Prettier (M2), se revisarán estas reglas. Lo importan
 ## Estado actual
 
 **Milestone activo:** M2 — Playable Core
-**Sesión actual:** Sesión 4 — pendiente. Empezamos a programar: arquitectura de GameScene y mapa básico (T-011, T-020, T-021).
-**Última actualización:** 2026-05-11
+**Sesión actual:** Sesión 5 — pendiente. Cámara que sigue al jugador (T-024).
+**Última actualización:** 2026-05-12
 
 ---
 

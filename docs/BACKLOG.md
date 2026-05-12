@@ -1,4 +1,4 @@
-# Backlog
+﻿# Backlog
 
 > Tareas activas del proyecto. Se actualiza cada sesión.
 >
@@ -16,13 +16,11 @@ _(Vacío.)_
 
 ## 🔵 To Do — Sprint actual (M2)
 
-### S4 — Sesión 4: Inicio de M2 — arquitectura y mapa básico
+### S5 — Sesión 5: Cámara y mejoras del mapa
 
-> Objetivo: empezar a programar el juego. Completar arquitectura de escenas y crear el primer mapa jugable.
+> Objetivo: cámara que sigue al jugador, mapa más grande que la pantalla.
 
-- [ ] **T-011** [tech] Completar arquitectura básica del juego (input, render, estado dentro de GameScene)
-- [ ] **T-020** [tech] Crear mapa básico
-- [ ] **T-021** [tech] Personaje visible en el mapa
+- [ ] **T-024** [tech] Cámara que sigue al jugador (el mapa se mueve, el jugador queda centrado)
 
 ---
 
@@ -65,6 +63,14 @@ _(Vacío.)_
 ## 🟢 Done
 
 _(Las más recientes arriba.)_
+
+### S4 — Sesión 4: Inicio de M2 — arquitectura y mapa básico (2026-05-12)
+
+- [x] **T-011** [tech] Completar arquitectura básica del juego (input, render, estado dentro de GameScene)
+- [x] **T-020** [tech] Crear mapa básico
+- [x] **T-021** [tech] Personaje visible en el mapa
+- [x] **T-022** [tech] Movimiento del personaje con WASD
+- [x] **T-023** [tech] Límites de movimiento del personaje
 
 ### S3 — Sesión 3: Despliegue en Vercel y cierre de M1 (2026-05-11)
 
