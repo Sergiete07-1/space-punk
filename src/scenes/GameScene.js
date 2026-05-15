@@ -24,6 +24,11 @@ export default class GameScene extends Phaser.Scene {
 this.walls = this.physics.add.staticGroup();
 this.walls.add(this.add.rectangle(200, 200, 64, 64, 0x8B4513));
 this.physics.add.collider(this.player, this.walls);
+this.walls.add(this.add.rectangle(500, 400, 64, 64, 0x8B4513));
+this.walls.add(this.add.rectangle(800, 150, 64, 64, 0x8B4513));
+this.walls.add(this.add.rectangle(1200, 600, 64, 64, 0x8B4513));
+this.walls.add(this.add.rectangle(300, 900, 64, 64, 0x8B4513));
+this.walls.add(this.add.rectangle(1600, 300, 64, 64, 0x8B4513));
 
 this.physics.world.setBounds(0, 0, 2400, 1728);
 this.player.body.setCollideWorldBounds(true);
